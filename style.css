@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 5%;
+    background-color: rgb(192, 199, 192);
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10% 5% 5% 5%;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 25% 25%;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-gap: 3%;
+}
+
+.containerContent {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px black;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h2, p {
+    margin: 5% ;
+    font-size: 100%;
+}
+button {
+    margin: 10%;
+}
+
+hr {
+    margin: 0% 15% 0% 15%;
+}
+
+h2{
+    font-weight: 500;
+    margin: auto 10% auto 10%;
+}
+
+p{
+    display: -webkit-box;
+    height: 20%;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    font-size: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.button {
+    margin-bottom: 20%;
+    margin-top: 20%;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 50%;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+  
+.button:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(116, 167, 115);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  hr{
+    color: rgb(116, 167, 115) ;
+  }
